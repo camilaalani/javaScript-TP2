@@ -13,4 +13,6 @@ do {
     }
 } while (texto !== null);
 
-alert(cadena.slice(0, -1));
+if (confirm("¿Estás seguro que deseas salir?")) {
+    alert(cadena.slice(0, -1));
+}
